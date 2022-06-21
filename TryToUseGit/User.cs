@@ -13,5 +13,8 @@ namespace TryToUseGit
         public string Surname { get; set; }
         public int Age { get; set; }
         public DateTime Birth { get; set; }
+        
+        public void Sleep() { }
+        public void Go() { }
     }
 }
